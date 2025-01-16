@@ -1,0 +1,6 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: 'botofchat-model-config'
+data:
+  MODEL_ENDPOINT: "http://botofchat-model-server:8001"

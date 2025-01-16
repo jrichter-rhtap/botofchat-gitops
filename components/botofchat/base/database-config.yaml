@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: 'botofchat-database-config'
+data:
+  VECTORDB_HOST: "botofchat-database"
+  VECTORDB_PORT: ""
